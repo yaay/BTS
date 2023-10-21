@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'CentraleSansLight';
-    src: url('assets/fonts/CentraleSansLight.otf') format('opentype');
+    src: url('https://yaay.github.io/BTS/assets/fonts/CentraleSansLight.otf') format('opentype');
   }
   
 @font-face {
     font-family: 'CentraleSansMedium';
-    src: url('assets/fonts/CentraleSansMedium.otf') format('opentype');
+    src: url('https://yaay.github.io/BTS/assets/fonts/CentraleSansMedium.otf') format('opentype');
   }
 
 @font-face {
     font-family: 'MyriadPro';
-    src: url('assets/fonts/MyriadPro-Regular.otf') format('opentype');
+    src: url('https://yaay.github.io/BTS/assets/fonts/MyriadPro-Regular.otf') format('opentype');
   }
 
 @font-face {
     font-family: 'SFTSchriftedSansLight';
-    src: url('assets/fonts/SFTSchriftedSansBold.woff') format('woff');
+    src: url('https://yaay.github.io/BTS/assets/fonts/SFTSchriftedSansBold.woff') format('woff');
   }
 
 @font-face {
     font-family: 'SFTSchriftedSansBold';
-    src: url('assets/fonts/SFTSchriftedSansLight.woff') format('woff');
+    src: url('https://yaay.github.io/BTS/assets/fonts/SFTSchriftedSansLight.woff') format('woff');
   }
 
 html {
@@ -59,12 +59,25 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10rem;
 }
 
-.logo > img{
-    height: 10rem;
-    color: #fff;
+.aa-logo img {
+    max-width: 20rem;
+    width: 100%;
+    height: auto;
 }
+
+.bts-logo img{
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+
+}
+
+/* .logo > img{
+    max-height: 10rem;
+} */
 
 .header-text {
     margin-top: 5rem;
@@ -113,7 +126,8 @@ img {
 
 .hero-text > img {
     max-width: 35rem;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .hero-text > p {
@@ -358,6 +372,16 @@ img {
 .footer-logo img {
     height: 100%;
     width: 24rem;
+}
+
+
+.small-fineprints {
+    margin-top: 1rem;
+}
+.small-fineprints p{
+    font-family: 'SFTSchriftedSansLight', sans-serif;
+    font-size: 0.8rem;
+
 }
 
 
