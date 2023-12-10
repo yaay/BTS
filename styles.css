@@ -28,7 +28,8 @@ html {
   }
 
 body {
-    background-color: #473575;
+    background-color: #7557c1;
+    margin: 0 20rem;
 }
 
 * {
@@ -402,4 +403,12 @@ img {
         /* margin-bottom: 0; */
         /* margin-right: 10px; */
     }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: #473575;
+        margin: 0;
+    }
+    
 }
